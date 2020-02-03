@@ -1,6 +1,6 @@
 def roll_call_dwarves(group)
   if group.length > 0
-  group.each.with_index(1) |dwarf, i|
+  group.each.with_index(1) do |dwarf, i|
     puts "#{i} #{dwarf}"
   end 
 end
