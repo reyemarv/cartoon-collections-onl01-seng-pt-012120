@@ -9,7 +9,7 @@ end
 def summon_captain_planet(calls)
   planeteer_calls = []
   calls.map do |element|
-    plaeteer_calls << "#{element.upcase}!"
+    planeteer_calls << "#{element.upcase}!"
   end
   planteer_calls 
 end
