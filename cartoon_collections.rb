@@ -7,11 +7,11 @@ def roll_call_dwarves(group)
 end
 
 def summon_captain_planet(calls)
-  planeteer_calls = []
+  new_calls = []
   calls.map do |element|
-    planeteer_calls << "#{element.upcase}!"
+    new_calls << "#{element.upcase}!"
   end
-  planteer_calls 
+  new_calls 
 end
 
 def long_planeteer_calls# code an argument here
