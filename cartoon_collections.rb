@@ -22,5 +22,5 @@ def find_the_cheese#(food)
 
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  food.find{|c| c.inlcude?(cheese_types)}
+  food.find{|c| c.inlcude?(c)}
 end
