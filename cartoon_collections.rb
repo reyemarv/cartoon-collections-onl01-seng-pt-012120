@@ -9,7 +9,7 @@ end
 def summon_captain_planet(calls)
   new_calls = []
   calls.map do |element|
-    new_calls << "#{element.capitlize}!"
+    new_calls << "#{element.capitalize}!"
   end
   new_calls 
 end
