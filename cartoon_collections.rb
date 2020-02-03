@@ -2,8 +2,8 @@ def roll_call_dwarves(group)
   if group.length > 0
   group.each.with_index(1) do |dwarf, i|
     puts "#{i} #{dwarf}"
+    end 
   end 
-end 
 end
 
 def summon_captain_planet# code an argument here
