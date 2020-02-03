@@ -3,6 +3,7 @@ def roll_call_dwarves(group)
   group.each.with_index(1) do |dwarf, i|
     puts "#{i} #{dwarf}"
   end 
+end 
 end
 
 def summon_captain_planet# code an argument here
